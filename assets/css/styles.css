@@ -181,7 +181,7 @@ img {
 .nav__menu{
   position: fixed;
   top: 0;
-  right: 0;
+  right: -100%;
   background-color: hsla(238, 100%, 6%, .5);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -190,6 +190,44 @@ img {
   padding: 8rem 3.5rem 3.5rem;
   transition: right .4s;
 }
+
+.nav__list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.nav__link{
+  color: var(--white-color);
+  font-size: var(--h2-font-size);
+  font-family: var(--second-font);
+  transition: color .4s;
+}
+
+.nav__link:hover{
+  color: var(--first-color);
+}
+
+.nav__img,
+.nav__close{
+  position: absolute;
+}
+
+.nav__close{
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.nav__img{
+  width: 300px;
+  right: -3rem;
+  bottom: 5rem;
+  z-index: -1;
+}
+
+
+
+
 
 /* Show menu */
 
