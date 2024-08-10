@@ -255,6 +255,33 @@ img {
   object-position: center;
 }
 
+.home__container{
+  position: relative;
+  row-gap: 3rem;
+  padding-top: 3rem;
+}
+
+.home__data{
+  position: relative;
+  text-align: center;
+}
+.home__title span{
+  display: block;
+}
+
+.home__title{
+  font-size: var(--biggest-font-size);
+  font-family: var(--second-font);
+  font-weight: initial;
+  margin-bottom: 1.5rem;
+}
+
+.home__title span:nth-child(1){
+  
+}
+
+
+
 
 /*=============== BUTTON ===============*/
 
