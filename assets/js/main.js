@@ -52,7 +52,8 @@ const swiperTravel = new Swiper('.travel__swiper', {
     centeredSlides: 'auto',
 
     pagination: {
-    el: '.swiper-pagination',
+        el: '.swiper-pagination',
+        clickable: true,
     },
 
     breakpoints: {
