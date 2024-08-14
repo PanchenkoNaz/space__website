@@ -388,8 +388,8 @@ img {
   left: 0;
   right: 0;
   margin: 0 auto;
-  /* transform: rotate(-90deg);
-  transition: transform .6s; */
+  transform: rotate(-90deg);
+  transition: transform .6s;
 }
 
 .travel__title{
@@ -442,6 +442,11 @@ img {
 
 
 /* Swiper animation */
+
+.swiper-slide-active .travel__img{
+  transform: rotate(0);
+}
+
 
 
 /*=============== EXPLORE ===============*/
